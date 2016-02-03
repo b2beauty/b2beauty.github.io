@@ -1,6 +1,215 @@
+<!DOCTYPE HTML>
 <html>
-<header>
-<title>B2Beauty Group</title>
-</header>
-</html>
+	<head>
+		<title>B2Beauty Group </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="portfolio/style.css" />
+
+		<!-- Portfolio -->
+    <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- Efeitos das Sessões -->
+    <script type="text/javascript" src="assets/js/sections.js"></script>
+
+    <!-- Parallax -->
+    <script type="text/javascript" src="assets/js/parallax.js"></script>
+    <script>
+      $(function(){
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+          $('#ios-notice').removeClass('hidden');
+          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+        } else {
+          $(window).resize(function(){
+            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+            $('.parallax-container').height(parallaxHeight);
+          }).trigger('resize');
+        }
+      });
+    </script>
+
+		<noscript><link rel="stylesheet" type="text/css" href="portoflio/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/noscript.css" /><![endif]-->
+
+	</head>
+	<body class="overflow">
+
+  <!-- Logo -->
+    <a href="#intro"><img id="logo" src="images/b2beauty-group.png"></a>
+		<!-- Header -->
+			<header id="header" class="claro">
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+              <li><a id="navIntro" class="active" href="#intro">Início</a></li>
+							<li><a id="navSobre" href="#sobre">Sobre</a></li>
+							<li><a id="navPortfolio" href="#ps-container">Portfólio</a></li>
+							<li><a id="navInvestidores" href="#investidores">Investidores e Parceiros</a></li>
+						</ul>
+					</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen" data-parallax="scroll" data-position="top" data-image-src="./images/background-home.jpg" >
+				<div class="content container 75%">
+					<header>
+						<h2>ultrices quis libero eget,</h2>
+					</header>
+					<p><strong>facilisis blandit urna.</strong></p>
+					<footer>
+						<a href="#sobre" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+			<!-- Sobre -->
+			<section id="sobre" class="main style2 right dark fullscreen" data-image-src="./images/sala_marrom3.jpg" data-natural-height="719" data-natural-width="1700" data-parallax="scroll">
+				<div class="content box style2">
+					<header>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id augue purus. Morbi vitae orci orci. Vivamus elit risus, varius et ex eu, varius auctor magna. Donec ultrices odio nec odio auctor luctus. Ut enim leo, pretium id lorem ac, luctus dapibus sem. Mauris scelerisque arcu et bibendum sollicitudin. Donec auctor tempor gravida. Donec pellentesque, velit ut aliquet vestibulum, orci quam dictum ante, ut iaculis lorem ex vel dolor.</p>
+				</div>
+				<a href="#ps-container" class="button style2 down anchored">Next</a>
+			</section>
+
+			<!-- Portfolio -->
+  		<section id="ps-container" class="ps-container fullscreen">
+    		<div class="ps-header">
+        <!-- Logo Escura-->
+        <a class="logoPortfolio" href="#intro"><img id="logoBranca" src="images/b2beauty-group.png"></a>
+        </div><!-- /ps-header -->
+  			<div class="ps-slidewrapper">
+        
+          <div class="ps-slides">
+            <div style="background-image:url(images/beautydate.jpg);"></div>
+            <div style="background-image:url(images/az-solucoes.jpg);"></div>
+            <div style="background-image:url(images/3.jpg);"></div>
+          </div>
+          
+          <nav>
+            <a href="#" class="ps-prev" ></a>
+            <a href="#" class="ps-next" ></a>
+          </nav>
+          
+        </div><!-- /ps-slidewrapper -->
+  			<div class="ps-contentwrapper">
+  			
+  				<div class="ps-content">
+  					<h2>Beauty Date</h2>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus eu nunc eu mollis. Nulla facilisi. Aenean et mi in sapien varius cursus eu eu turpis. Duis sed erat gravida urna viverra interdum et id augue. Phasellus pellentesque ligula non luctus placerat. Fusce quis mattis arcu. Nunc dignissim sodales dui, in dignissim dolor efficitur nec. Integer gravida sapien vitae est venenatis interdum. Sed tincidunt ornare justo. Nulla vestibulum ut justo vitae dictum. Quisque accumsan cursus turpis ac imperdiet.<br><br>
+            Nullam venenatis fringilla ipsum, quis porta nisi tempus in. Proin nisl diam, ultrices quis libero eget, facilisis blandit urna. Vestibulum aliquet dui in sem sollicitudin, at consectetur quam gravida.
+            </p>
+  					<a href="http://www.beautydate.com.br" target="_blank">Saiba Mais</a>
+  				</div>
+  				
+  				<div class="ps-content">
+            <h2>AZ soluções</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus eu nunc eu mollis. Nulla facilisi. Aenean et mi in sapien varius cursus eu eu turpis. Duis sed erat gravida urna viverra interdum et id augue. Phasellus pellentesque ligula non luctus placerat. Fusce quis mattis arcu. Nunc dignissim sodales dui, in dignissim dolor efficitur nec. Integer gravida sapien vitae est venenatis interdum. Sed tincidunt ornare justo. Nulla vestibulum ut justo vitae dictum. Quisque accumsan cursus turpis ac imperdiet.<br><br>
+            Nullam venenatis fringilla ipsum, quis porta nisi tempus in. Proin nisl diam, ultrices quis libero eget, facilisis blandit urna. Vestibulum aliquet dui in sem sollicitudin, at consectetur quam gravida.
+            </p>
+            <a href="http://www.azsolucoes.com.br/" target="_blank">Saiba Mais</a>
+  				</div>
+  				
+  				<div class="ps-content">
+            <h2>Outro produto</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus eu nunc eu mollis. Nulla facilisi. Aenean et mi in sapien varius cursus eu eu turpis. Duis sed erat gravida urna viverra interdum et id augue. Phasellus pellentesque ligula non luctus placerat. Fusce quis mattis arcu. Nunc dignissim sodales dui, in dignissim dolor efficitur nec. Integer gravida sapien vitae est venenatis interdum. Sed tincidunt ornare justo. Nulla vestibulum ut justo vitae dictum. Quisque accumsan cursus turpis ac imperdiet.<br><br>
+            Nullam venenatis fringilla ipsum, quis porta nisi tempus in. Proin nisl diam, ultrices quis libero eget, facilisis blandit urna. Vestibulum aliquet dui in sem sollicitudin, at consectetur quam gravida.
+            </p>
+            <a href="http://www.beautydate.com.br" target="_blank">Saiba Mais</a>
+  				</div>
+  				
+  				
+  			</div><!-- /ps-contentwrapper -->
+  		</section><!-- Fim Portfolio -->
+
+		<!-- Investidores -->
+			<section id="investidores" class="main style3 primary">
+				<div class="content container">
+        <a href="#intro"><img id="logoPreta" src="images/b2beauty-group-preto.png"></a>
+					<!-- Lightbox Gallery  -->
+						<div class="container 75% gallery">
+							<h3 class="background"><span>Investidores</span></h3>
+							<div class="row 0% images">
+								<div class="6u 12u(mobile)"><img src="images/valor.png" class="image from-left" title="The Anonymous Red" alt="" /></div>
+								<div class="6u 12u(mobile)"><img src="images/keune.png" class="image from-left" title="Airchitecture II" alt="" /></div>
+							</div>
+							<h3 class="background" style="margin-top:100px;"><span>Parceiros</span></h3>
+							<div class="row 0% images">
+								<div class="4u 12u(mobile)"><img src="images/mdemulher.png" class="image from-right" title="The Anonymous Red" alt="" /></div>
+								<div class="4u 12u(mobile)"><img src="images/paypal.png" class="image from-right" title="Airchitecture II" alt="" /></div>
+								<div class="4u 12u(mobile)"><img src="images/uber.png" class="image from-right" title="The Anonymous Red" alt="" /></div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+		<!-- Contact
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+					</header>
+					<div class="box container 75%">
+
+					<!-- Contact Form
+							<form method="post" action="#">
+								<div class="row 50%">
+									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row 50%">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+					<ul class="menu">
+						<li>&copy; 2015 - 2016 B2Beauty Group- Todos os direitos reservados</li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+
+		  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  		<script type="text/javascript" src="assets/js/slider.js"></script>
+  		<script type="text/javascript">
+  			$(function() {
+
+  				Slider.init();
+  			
+  			});
+  		</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
