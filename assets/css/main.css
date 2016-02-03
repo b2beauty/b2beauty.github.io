@@ -3449,7 +3449,7 @@
 			}
 
 			#logo{
-				top: 30px;
+				top: 80px;
 				left: calc(50% - 100px);
 				position: absolute;
 				width: 200px;
@@ -3457,10 +3457,18 @@
 
 			#logoBranca, #logoPreta, #logo.maior, .logoPortfolio{
 				display: none;
-				top: 30px;
+				top: 80px;
 				left: calc(50% - 100px);
 				position: absolute;
 				width: 200px;
+			}
+
+			.main.style1 .content {
+				margin-top: 100px
+			}
+
+			.main.style1 h2{
+				font-size: 2em;
 			}
 
 			.main.style2{
