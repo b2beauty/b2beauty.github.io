@@ -10,9 +10,11 @@ $(document).ready(function() {
             //Logo
             $("#logo").removeClass("maior");
 
-            //Hover menu
+            //Active menu
             $("#navIntro").addClass("active");
             $("#navSobre").removeClass("active");
+            $("#navPortfolio").removeClass("active");
+            $("#navInvestidores").removeClass("active");
         }
         if ( $window.scrollTop() >= sobre.top ) {
             //Logo
@@ -22,10 +24,11 @@ $(document).ready(function() {
             //Texto menu
             $("#header").removeClass("escuro").addClass("claro");
 
-            //Hover menu
+            //Active menu
             $("#navIntro").removeClass("active");
             $("#navSobre").addClass("active");
             $("#navPortfolio").removeClass("active");
+            $("#navInvestidores").removeClass("active");
         }
         if ( $window.scrollTop() >= portfolio.top ) {
             //Logo
@@ -39,9 +42,10 @@ $(document).ready(function() {
             //Scroll
             // $("body").addClass("overflow");
 
-            //Hover menu
-            $("#navPortfolio").addClass("active");
+            //Active menu
+            $("#navIntro").removeClass("active");
             $("#navSobre").removeClass("active");
+            $("#navPortfolio").addClass("active");
             $("#navInvestidores").removeClass("active");
         }
         if ( $window.scrollTop() >= investidores.top ) {
@@ -52,7 +56,9 @@ $(document).ready(function() {
             //Scroll
             // $("body").removeClass("overflow");
 
-            //Hover menu
+            //Active menu
+            $("#navIntro").removeClass("active");
+            $("#navSobre").removeClass("active");
             $("#navPortfolio").removeClass("active");
             $("#navInvestidores").addClass("active");
         }

@@ -201,8 +201,22 @@
 
 @media screen and (max-width: 860px) {
 
+	.ps-container {
+		position: absolute;
+	}
+
+	.ps-header {
+		display: none;
+	}
+
+	.main.style2 .content {
+    padding: 70px 30px;
+    background: #2F2F2F;
+    color: #F7F5FE;
+  }
+
 	.js .ps-container > div {
-		width: 100%;
+		width: 100%; 
 	}
 
 	.js .ps-header {
@@ -217,7 +231,7 @@
 
 	.js .ps-slides {
 		bottom: 320px;
-		top: 50px;
+		top: 0;
 	}
 
 	.js .ps-slidewrapper > nav {

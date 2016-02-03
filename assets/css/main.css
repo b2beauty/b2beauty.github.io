@@ -27,8 +27,8 @@
 	}
 
 	body.overflow {
-	  height: 100%;
-	  overflow: hidden;
+/*	  height: 100%;
+	  overflow: hidden;*/
 	}
 
 	ol, ul {
@@ -2817,7 +2817,7 @@
 
 	}
 
-	#nav a.active{
+	#nav a.active, #nav a:hover{
 		color: #B58B58;
 	}
 
@@ -3414,10 +3414,6 @@
 
 				.main.style2:before, .main.style2:after {
 					display: none !important;
-				}
-
-				.main.style2 .button.anchored {
-					display: none;
 				}
 
 				.main.style2 .content {
