@@ -229,10 +229,18 @@
 		letter-spacing: 4px;
 	}
 
+	.js .ps-content h2{
+		display: none;
+	}
+
 	.js .ps-slides {
 		bottom: 320px;
 		top: 0;
 	}
+
+	.ps-slides > div {
+    margin-top: -15px
+  }
 
 	.js .ps-slidewrapper > nav {
 		height: 100px;
@@ -240,19 +248,12 @@
 
 	.js .ps-contentwrapper {
 		top: auto;
-		height: 220px;
+		height: 260px;
 		bottom: 100px;
 	}
 
 	.js .ps-content {
 		padding: 10px;
-	}
-
-	.js .ps-content h2 {
-		border-right: none;
-		font-size: 18px;
-		margin: 10px 0;
-		padding-top: 0;
 	}
 
 	.js .ps-content span.ps-price {
@@ -265,16 +266,21 @@
 	}
 
 	.js .ps-content p {
-		line-height: 20px;
+		line-height: normal;
 		border: none;
 		padding: 5px 10px;
-		height: 80px;
+		height: 175px;
 		overflow-y: scroll;
+		letter-spacing: 1px;
+		font-size: 12px;
 	}
 
 	.js .ps-content a:last-child {
-		font-size: 13px;
-		margin: 10px 20px 0 0;
+    font-size: 12px;
+    margin: 0 20px 0px 0px;
+    border: 1px solid;
+    letter-spacing: 2px;
+    text-transform: none;
 	}
 }
 
