@@ -3420,6 +3420,9 @@
 					width: 100%;
 					left: 0% !important;
 					text-align: center;
+					padding: 70px 30px;
+			    background: #2F2F2F;
+			    color: #F7F5FE;
 				}
 
 				.main.style2 .tmp {
@@ -3438,10 +3441,16 @@
 			#header {
 				height: 2.5em;
 				line-height: 2.5em;
+				background: #F6F6F6;
+				text-align: center;
 			}
 
 			#nav {
-				display: none;
+				color: #2F2F2F;
+				top: auto;
+				right: auto;
+				line-height: 0;
+				position: unset;
 			}
 
 			#logo{
