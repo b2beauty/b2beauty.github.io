@@ -3450,7 +3450,7 @@
 				top: auto;
 				right: auto;
 				line-height: 0;
-				position: unset;
+				position: initial;
 			}
 
 			#nav ul, #nav ul li{
