@@ -3453,6 +3453,11 @@
 				position: unset;
 			}
 
+			#nav ul, #nav ul li{
+				padding: 0;
+				margin: 0;
+			}
+
 			#logo{
 				top: 80px;
 				left: calc(50% - 100px);
