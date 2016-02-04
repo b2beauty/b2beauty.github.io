@@ -201,10 +201,6 @@
 
 @media screen and (max-width: 860px) {
 
-	.ps-container {
-		position: absolute;
-	}
-
 	.ps-header {
 		display: none;
 	}

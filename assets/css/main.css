@@ -3326,11 +3326,11 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 60%;
+				width: 50%;
 			}
 
 			.main.style2.right .content {
-				left: 40%;
+				left: 50%;
 			}
 
 			.main.style2.inactive.left .content {
@@ -3339,7 +3339,7 @@
 
 			#logo.maior {
 		   	width: 250px;
-		   	left: 70px;
+		   	left: 12%;
 			}
 
 		/* Footer */
@@ -3406,7 +3406,7 @@
 		/* Main */
 
 			.main.fullscreen {
-				height: auto !important;
+				/*height: auto !important;*/
 			}
 
 			.main.style1 {
@@ -3494,6 +3494,14 @@
 
 			.main.style2{
 				padding: 0;
+			}
+
+			.js .ps-container > div {
+				position: absolute;
+			}
+
+			#investidores{
+				margin-top: 120%;
 			}
 
 			#investidores .row.images .image{
