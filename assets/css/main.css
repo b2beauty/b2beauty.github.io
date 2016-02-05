@@ -3434,6 +3434,13 @@
 				padding: 6em 15px 6em 15px;
 			}
 
+			.dark .button.style2.down{
+				top: 40px;
+				position: relative;
+				bottom: 0;
+			}
+
+
 				.main.style2:before, .main.style2:after {
 					display: none !important;
 				}
@@ -3442,7 +3449,7 @@
 					width: 100%;
 					left: 0% !important;
 					text-align: center;
-					padding: 30px 30px 130px;
+					padding: 30px 30px 100px;
 			    background: #2F2F2F;
 			    color: #F7F5FE;
 				}
@@ -3559,8 +3566,17 @@
 		.main.style1 .content {
 			margin-top: 150px
 		}
+
+		.main.style2 .content{
+			padding-bottom: 10px;
+		}
+
 		.dark .button.style2.down{
-			position: relative;
+			top: 10px;
+		}
+
+		.main.style2 .content p{
+			font-size: 13px;
 		}
 
 	}
