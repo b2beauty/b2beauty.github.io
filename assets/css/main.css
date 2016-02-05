@@ -218,7 +218,6 @@
 			width: 95%;
 		}
 		body.overflow {
-		  height: auto;
 		  overflow: unset;
 		}
 
@@ -2410,6 +2409,7 @@
 			.dark .button.style2.down {
 				background-image: url("images/dark-arrow.svg");
 				background-size: 20px;
+				bottom: 50px;
 			}
 
 /* Spinner */
@@ -3392,6 +3392,10 @@
 				letter-spacing: -1px;
 			}
 
+			#sobre{
+				background: #2F2F2F;
+			}
+
 		/* Box */
 
 			.box {
@@ -3481,6 +3485,12 @@
 				left: calc(50% - 100px);
 				position: absolute;
 				width: 200px;
+			}
+
+			.logoMobile{
+				display: block;
+				margin: 0 auto 50px auto;
+				width: 250px;
 			}
 
 			.main.style1 .content {
