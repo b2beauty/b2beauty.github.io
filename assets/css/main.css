@@ -3442,7 +3442,7 @@
 					width: 100%;
 					left: 0% !important;
 					text-align: center;
-					padding: 70px 30px 130px;
+					padding: 30px 30px 130px;
 			    background: #2F2F2F;
 			    color: #F7F5FE;
 				}
@@ -3560,7 +3560,7 @@
 			margin-top: 150px
 		}
 		.dark .button.style2.down{
-			bottom: 0;
+			position: relative;
 		}
 
 	}
