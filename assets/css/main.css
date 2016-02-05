@@ -2409,7 +2409,7 @@
 			.dark .button.style2.down {
 				background-image: url("images/dark-arrow.svg");
 				background-size: 20px;
-				bottom: 50px;
+				bottom: -50px;
 			}
 
 /* Spinner */
@@ -3368,6 +3368,14 @@
 					line-height: inherit;
 				}
 
+				#footer .menu{
+					padding: 0
+				}
+
+				#footer .menu li{
+					line-height: 20px;
+				}
+
 	}
 
 /* Mobile */
@@ -3447,7 +3455,7 @@
 
 			.main.style3 {
 				text-align: center;
-				padding: 3em 10px 3em 10px;
+				padding: 1em 10px 3em 10px;
 			}
 
 		/* Header */
@@ -3491,10 +3499,6 @@
 				display: block;
 				margin: 0 auto 50px auto;
 				width: 250px;
-			}
-
-			.main.style1 .content {
-				margin-top: 150px
 			}
 
 			.main.style1 h2{
@@ -3547,5 +3551,16 @@
 				background-size: contain;
 				opacity: 0.65;
 			}
+
+	}
+
+	@media screen and (max-width: 480px), screen and (max-height: 640px) {
+
+		.main.style1 .content {
+			margin-top: 150px
+		}
+		.dark .button.style2.down{
+			bottom: 0;
+		}
 
 	}

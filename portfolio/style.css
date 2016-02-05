@@ -201,13 +201,6 @@
 
 @media screen and (max-width: 860px) {
 
-
-/*	.ps-container > div,
-	.ps-container > div > div,
-	.ps-slidewrapper > nav{
-		position: relative;
-	}*/
-
 	.ps-slidewrapper > nav > a::after {
 		width: 50px;
 		height: 50px;
@@ -294,14 +287,6 @@
     letter-spacing: 2px;
     text-transform: none;
 	}
-}
-
-@media screen and (max-width: 736px) {
-
-/*		.ps-container{
-			position: absolute;
-		}
-*/
 }
 
 
