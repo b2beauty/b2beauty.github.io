@@ -162,23 +162,23 @@
 	height: 100px;
 	top: 50%;
 	left: 50%;
-	margin: -20px 0 0 -50px;
+	margin: -50px 0 0 -20px;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	border-left: 1px solid #fff;
-	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
-.ps-slidewrapper > nav > a:first-child:after {
+.ps-slidewrapper > nav > a:last-child:after {
 	-webkit-transform: rotate(-135deg);
 	-moz-transform: rotate(-135deg);
 	-o-transform: rotate(-135deg);
 	-ms-transform: rotate(-135deg);
 	transform: rotate(-135deg);
-	margin: -80px 0 0 -50px;
+	margin: -50px 0 0 -80px;
 }
 
 .ps-slides > div,

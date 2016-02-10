@@ -27,8 +27,8 @@
 	}
 
 	body.overflow {
-/*	  height: 100%;
-	  overflow: hidden;*/
+	  height: 100%;
+	  overflow: hidden;
 	}
 
 	ol, ul {
@@ -1905,7 +1905,8 @@
 		header p {
 			display: block;
 			margin: 1em 0 0 0;
-			padding: 0 0 0.5em 0;
+			padding: 0;
+			font-size: 30px;
 		}
 
 	footer {
@@ -2264,7 +2265,7 @@
 	}
 
 		.box.style2 {
-			padding: 3.5em 2.5em 3.5em 2.5em;
+			padding: 2.5em 2.5em 3.5em 2.5em;
 		}
 
 /* Main */
@@ -2285,9 +2286,10 @@
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 3.25em;
 				line-height: 1em;
-				letter-spacing: -4px;
+				letter-spacing: normal;
+				text-transform: uppercase;
 			}
 
 			.main.style1:before {
@@ -3404,6 +3406,10 @@
 				letter-spacing: -1px;
 			}
 
+			header p {
+				font-size: 24px;
+			}
+
 			#sobre{
 				background: #2F2F2F;
 			}
@@ -3513,7 +3519,7 @@
 			}
 
 			.main.style1 h2{
-				font-size: 2em;
+				font-size: 2.5em;
 				letter-spacing: normal;
 			}
 
@@ -3565,7 +3571,7 @@
 
 	}
 
-	@media screen and (max-width: 480px), screen and (max-height: 640px) {
+	@media screen and (max-width: 480px), screen and (max-height: 600px) {
 
 		.main.style1 .content {
 			margin-top: 150px
