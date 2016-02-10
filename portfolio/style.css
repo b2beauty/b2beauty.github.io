@@ -295,7 +295,20 @@
 		}
 }
 
+@media screen and (max-width: 860px) {
+		.ps-slidewrapper > nav > a:last-child:after {
+		margin: -25px 0 0 -40px;
+	}
 
+	.ps-slidewrapper > nav > a:first-child::after{
+		margin: -25px 0 0 -10px;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+}
 
 
 
