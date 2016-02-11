@@ -2411,7 +2411,6 @@
 			.dark .button.style2.down {
 				background-image: url("images/dark-arrow.svg");
 				background-size: 20px;
-				bottom: -50px;
 			}
 
 /* Spinner */
@@ -2823,6 +2822,16 @@
 		color: #B58B58;
 	}
 
+	#header #nav a.language{
+		background: #f6f6f6;
+		color: #2F2F2F;
+	}
+
+	#header.escuro #nav a.language{
+		background: #2F2F2F;
+		color: #f6f6f6;
+	}
+
 	#logo{
 		top: 30px;
 		left: 50px;
@@ -2911,8 +2920,7 @@
 					display: block;
 					color: inherit;
 					text-decoration: none;
-					height: 3em;
-					line-height: 3em;
+					line-height: normal;
 					padding: 0 0.5em;
 					outline: 0;
 					font-size: 13px;
@@ -3462,7 +3470,6 @@
 					padding: 30px 30px 100px;
 			    background: #2F2F2F;
 			    color: #F7F5FE;
-			    height: 100%;
 				}
 		
 				.main.style2 .tmp {
@@ -3491,11 +3498,17 @@
 				right: auto;
 				line-height: 0;
 				position: initial;
+				margin-top: 10px;
 			}
 
 			#nav ul, #nav ul li{
 				padding: 0;
 				margin: 0;
+			}
+
+			#header #nav a.language{
+				background: #2F2F2F;
+				color: #f6f6f6;
 			}
 
 			#logo{
