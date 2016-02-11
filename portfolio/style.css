@@ -46,8 +46,7 @@
 }
 
 .ps-content h2 {
-	padding: 10px 15px;
-	border-right: 1px solid #f2f2f2;
+	padding: 10px 0;
 	border-bottom: 1px solid #f2f2f2;
 	letter-spacing: 4px;
 	margin: 10px 0 30px;
@@ -60,11 +59,10 @@
 .ps-content p {
 	font-size: 16px;
 	letter-spacing: 1px;
-	padding: 10px 15px;
+	padding: 10px 0;
 	font-weight: 200;
-	border-left: 1px solid #f2f2f2;
-	border-top: 1px solid #f2f2f2;
 	line-height: normal;
+	text-align: justify;
 }
 
 .ps-content span.ps-price {
