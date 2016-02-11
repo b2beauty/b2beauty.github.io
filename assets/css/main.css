@@ -3418,8 +3418,10 @@
 				font-size: 24px;
 			}
 
-			#sobre{
+			#sobre .fdbtn{
 				background: #2F2F2F;
+				width: 100%;
+				height: 100%;
 			}
 
 		/* Box */
