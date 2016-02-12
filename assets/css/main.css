@@ -2942,6 +2942,7 @@
 /* Investidores */
 	#investidores{
 		position: relative;
+		min-height: 1500px;
 	}
 
 	#investidores .row.images .image {
