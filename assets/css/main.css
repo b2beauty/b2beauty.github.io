@@ -2958,6 +2958,8 @@
 		top: 0;
 		left: 0;
 		opacity: 1.0;
+		max-width: 170px;
+		max-height: 70px;
 	}
 
 	#investidores .row.images.inactive .image {
@@ -2982,7 +2984,7 @@
 
 		#investidores h3{
 			font-weight: 300;
-			font-size: 30px;
+			font-size: 24px;
 			text-transform: uppercase;
 	    text-align: center;
 		}	
@@ -2992,7 +2994,7 @@
 	    z-index: 1;
 	  } 
 	  #investidores h3.background:before {
-      border-top: 1px solid #39454B;
+      border-top: 1px solid #D8D8D8;
       content:"";
       margin: 0 auto; /* this centers the line to the full width specified */
       position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
@@ -3543,10 +3545,6 @@
 				padding: 0;
 			}
 
-			#investidores .row.images .image{
-				max-width: 170px;
-				max-height: 70px;
-			}
 
 		/* Footer */
 
