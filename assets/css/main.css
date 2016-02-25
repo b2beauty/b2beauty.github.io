@@ -2958,8 +2958,8 @@
 		top: 0;
 		left: 0;
 		opacity: 1.0;
-		max-width: 170px;
-		max-height: 70px;
+		max-width: 270px;
+		max-height: 150px;
 	}
 
 	#investidores .row.images.inactive .image {
@@ -3392,6 +3392,13 @@
 					line-height: 20px;
 				}
 
+	}
+
+	@media screen and (max-height: 720px) {
+		#investidores .row.images .image {
+			max-width: 170px;
+			max-height: 70px;
+		}
 	}
 
 /* Mobile */
