@@ -26,10 +26,10 @@
 		line-height: 1;
 	}
 
-	body.overflow {
+/*	body.overflow {
 	  height: 100%;
 	  overflow: hidden;
-	}
+	}*/
 
 	ol, ul {
 		list-style: none;
