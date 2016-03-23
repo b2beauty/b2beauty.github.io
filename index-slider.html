@@ -12,6 +12,12 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="portfolio/style.css" />
+
+		<!-- Portfolio -->
+    <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <!-- Efeitos das Sessões -->
@@ -48,7 +54,7 @@
 						<ul>
               <li><a id="navIntro" class="active" href="#intro">Início</a></li>
 							<li><a id="navSobre" href="#sobre">Sobre</a></li>
-							<li><a id="navPortfolio" href="#empresas">Empresas</a></li>
+							<li><a id="navPortfolio" href="#ps-container">Empresas</a></li>
 							<li><a id="navInvestidores" href="#investidores">Investidores</a></li>
               <li><a class="language" href="index.html">PT</a></li>
               <li style="margin:0"><a class="language" href="index-en.html">EN</a></li>
@@ -83,38 +89,65 @@
 			</section>
 
 			<!-- Portfolio -->
-  		<section id="empresas" class="main fullscreen">
-        <div class="content">
-        <div class="esq">
-          <div class="bloco">
-            <img src="images/az-solucoes.png">
+  		<section id="ps-container" class="ps-container fullscreen">
+    		<div class="ps-header">
+        <!-- Logo Escura-->
+        <a class="logoPortfolio" href="#intro"><img id="logoBranca" src="images/b2beauty-group.png"></a>
+        </div><!-- /ps-header -->
+  			<div class="ps-slidewrapper">
+        
+          <div class="ps-slides">
+            <div style="background-image:url(images/beautydate.jpg);"></div>
+            <div style="background-image:url(images/az-solucoes.jpg);"></div>
+            <div style="background-image:url(images/2016.jpg);"></div>
+          </div>
+          
+          <nav>
+            <a href="#" class="ps-prev" ></a>
+            <a href="#" class="ps-next" ></a>
+          </nav>
+          
+        </div><!-- /ps-slidewrapper -->
+  			<div class="ps-contentwrapper">
+  			
+  				<div class="ps-content">
+  					<h2>Beauty Date</h2>
+  					<p>A equipe Beauty Date é responsável pelo desenvolvimento de um aplicativo e um sistema de gestão de mesmo nome. <br><br>O carro-chefe do Beauty Date é o agendamento online, que conecta os clientes à agenda de seus salões preferidos na tela do celular e permite que eles marquem horários quando quiserem e onde estiverem. Além disso, o sistema também conta com funções básicas de gestão como cadastro de clientes e comandas, que facilitam a rotina de salões de todos os portes.
+            </p>
+  					<a href="http://www.beautydate.com.br" target="_blank">Site</a>
+  				</div>
+  				
+  				<div class="ps-content">
+            <h2>AZ soluções</h2>
             <p>A AZ Soluções é a responsável pelo desenvolvimento do AZ, o software de gestão para salões de beleza mais completo do mercado. <br><br>O AZ é uma poderosa ferramenta para negócios de beleza mais robustos, que atendem uma quantidade maior de clientes e movimentam um volume alto de comandas, conferindo a eles agilidade e precisão nos processos.
             </p>
-          </div>
-        </div>
-        <div class="dir">
-          <div class="bloco">
-            <img style="margin-top: 20px" src="images/beautydate.png">
-            <p>A equipe Beauty Date é responsável pelo desenvolvimento de um aplicativo e um sistema de gestão de mesmo nome. <br><br>O carro-chefe do Beauty Date é o agendamento online, que conecta os clientes à agenda de seus salões preferidos na tela do celular e permite que eles marquem horários quando quiserem e onde estiverem. Além disso, o sistema também conta com funções básicas de gestão como cadastro de clientes e comandas, que facilitam a rotina de salões de todos os portes.
+            <a href="http://www.azsolucoes.com.br/" target="_blank">Site</a>
+  				</div>
+  				
+  				<div class="ps-content">
+            <h2>Novas oportunidades</h2>
+            <p>O grupo B2Beauty está trabalhando em novas oportunidades para os salões de beleza ainda em 2016!
             </p>
-          </div>
-        </div>
+  				</div>
+  				
+  				
+  			</div><!-- /ps-contentwrapper -->
   		</section><!-- Fim Portfolio -->
 
 		<!-- Investidores -->
 			<section id="investidores" class="main style3 primary">
-				<div class="content">
+				<div class="content container">
         <a href="#intro"><img id="logoPreta" src="images/b2beauty-group-preto.png"></a>
 						<div class="container 75%">
 							<h3 class="background"><span>Investidores</span></h3>
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="http://www.valorcapitalgroup.com" target="_blank"><img src="images/valor.png" class="image from-left" title="Valor Capital" alt="Valor Capital" /></a></div>
-								<div class="6u 12u(mobile)"><a href="http://www.keune.com.br" target="_blank"><img src="images/ibg.png" class="image from-left" title="Keune Brasil" alt="Keune Brasil" /></a></div>
+								<div class="6u 12u(mobile)"><a href="http://www.valorcapitalgroup.com" target="_blank"><img src="images/valor.png" class="image from-left" title="The Anonymous Red" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="http://www.keune.com.br" target="_blank"><img src="images/ibg.png" class="image from-left" title="Airchitecture II" alt="" /></a></div>
 							</div>
 							<h3 class="background" style="margin-top:50px;"><span>Parceiros</span></h3>
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="https://www.paypal.com" target="_blank"><img src="images/paypal.png" class="image from-right" title="Paypal" alt="Paypal" /></a></div>
-								<div class="6u 12u(mobile)"><a href="https://www.uber.com" target="_blank"><img src="images/uber.png" class="image from-right" title="Uber" alt="Uber" /></a></div>
+								<div class="6u 12u(mobile)"><a href="https://www.paypal.com" target="_blank"><img src="images/paypal.png" class="image from-right" title="Airchitecture II" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="https://www.uber.com" target="_blank"><img src="images/uber.png" class="image from-right" title="The Anonymous Red" alt="" /></a></div>
 							</div>
 						</div>
 
@@ -162,6 +195,7 @@
 		<!-- Scripts -->
 
 		  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  		<script type="text/javascript" src="assets/js/slider.js"></script>
   		<script type="text/javascript">
   			$(function() {
 

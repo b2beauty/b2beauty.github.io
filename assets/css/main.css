@@ -2852,6 +2852,10 @@
     -o-transition: opacity 0.6s;
     transition: opacity 0.6s;
     opacity: 0;
+    top: 30px;
+		left: 50px;
+		z-index: 99;
+		position: fixed;
 	}
 
 	.logoPortfolio{
@@ -2938,6 +2942,39 @@
 		position: relative;
 }			
 
+
+/* Empresas */
+
+#empresas .esq{
+	width: 50%;
+	height: 100%;
+	background: #2F2F2F;
+	position: absolute;
+	z-index: 9;
+	left: 0;
+	color: #f0f0f0;
+}
+
+#empresas .dir{
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background: #f0f0f0;
+	position: absolute;
+	z-index: 9;
+	color: #2F2F2F;
+}
+
+#empresas .bloco{
+	text-align: center;
+	margin: 25% 18%;
+}
+
+#empresas .bloco p{
+	margin-top: 70px;
+	font-size: 17px;
+	line-height: 28px;
+}
 
 /* Investidores */
 	#investidores{
@@ -3298,31 +3335,39 @@
 
 	@media screen and (max-width: 1280px) {
 
-		/* Basic */
+	/* Basic */
 
-			body, input, textarea, select {
-				font-size: 13pt;
-			}
+		body, input, textarea, select {
+			font-size: 13pt;
+		}
 
-		/* Main */
+	/* Main */
 
-			.main.style2 .content {
-				width: 50%;
-			}
+		.main.style2 .content {
+			width: 50%;
+		}
 
-			.main.style2.right .content {
-				left: 50%;
-			}
+		.main.style2.right .content {
+			left: 50%;
+		}
 
-			.main.style2.inactive.left .content {
-				left: -50%;
-			}
+		.main.style2.inactive.left .content {
+			left: -50%;
+		}
 
-			#logo.maior {
-		   	width: 300px;
-		   	left: 150px;
-			}
+		#logo.maior {
+	   	width: 300px;
+	   	left: 150px;
+		}
+		#empresas .bloco p{
+			margin-top: 70px;
+			font-size: 15px;
+			line-height: 25px;
+		}
 
+		#empresas .bloco img{
+			width: 250px;
+		}
 	}
 
 /* Narrower */
@@ -3391,6 +3436,87 @@
 				#footer .menu li{
 					line-height: 20px;
 				}
+
+	}
+
+	@media screen and (max-width: 900px) {
+		
+		#empresas .esq{
+			width: 100%;
+			height: 50%;
+		}
+		#empresas .dir{
+			width: 100%;
+			height: 50%;
+			top: 50%;
+		}
+		#empresas .bloco{
+			margin: 70px;
+		}
+		#empresas .bloco p{
+			margin-top: 20px;
+		}
+
+		#empresas .bloco img{
+			width: 220px;
+		}
+			/* Header */
+
+		#header {
+			height: 2.5em;
+			line-height: 2.5em;
+			background: #F6F6F6;
+			text-align: center;
+		}
+
+		#nav {
+			color: #2F2F2F;
+			top: auto;
+			right: auto;
+			line-height: 0;
+			position: initial;
+			margin-top: 10px;
+		}
+
+		#nav ul, #nav ul li{
+			padding: 0;
+			margin: 0;
+		}
+
+		#header #nav a.language{
+			background: #2F2F2F;
+			color: #f6f6f6;
+		}
+
+		#logo{
+			top: 120px;
+			left: calc(50% - 100px);
+			position: absolute;
+			width: 200px;
+		}
+
+		#logoBranca, #logoPreta, #logo.maior, .logoPortfolio{
+			display: none;
+			top: 80px;
+			left: calc(50% - 100px);
+			position: absolute;
+			width: 200px;
+		}
+
+		.logoMobile{
+			display: block;
+			margin: 0 auto 50px auto;
+			width: 250px;
+		}
+
+		.main.style1 h2{
+			font-size: 2.5em;
+			letter-spacing: normal;
+		}
+
+		.main.style2{
+			padding: 0;
+		}
 
 	}
 
@@ -3494,65 +3620,6 @@
 				padding: 1em 10px 3em 10px;
 			}
 
-		/* Header */
-
-			#header {
-				height: 2.5em;
-				line-height: 2.5em;
-				background: #F6F6F6;
-				text-align: center;
-			}
-
-			#nav {
-				color: #2F2F2F;
-				top: auto;
-				right: auto;
-				line-height: 0;
-				position: initial;
-				margin-top: 10px;
-			}
-
-			#nav ul, #nav ul li{
-				padding: 0;
-				margin: 0;
-			}
-
-			#header #nav a.language{
-				background: #2F2F2F;
-				color: #f6f6f6;
-			}
-
-			#logo{
-				top: 120px;
-				left: calc(50% - 100px);
-				position: absolute;
-				width: 200px;
-			}
-
-			#logoBranca, #logoPreta, #logo.maior, .logoPortfolio{
-				display: none;
-				top: 80px;
-				left: calc(50% - 100px);
-				position: absolute;
-				width: 200px;
-			}
-
-			.logoMobile{
-				display: block;
-				margin: 0 auto 50px auto;
-				width: 250px;
-			}
-
-			.main.style1 h2{
-				font-size: 2.5em;
-				letter-spacing: normal;
-			}
-
-			.main.style2{
-				padding: 0;
-			}
-
-
 		/* Footer */
 
 			#footer .menu li {
@@ -3589,7 +3656,6 @@
 				background-size: contain;
 				opacity: 0.65;
 			}
-
 	}
 
 	@media screen and (max-width: 480px), screen and (max-height: 600px) {
@@ -3606,4 +3672,13 @@
 			top: 10px;
 		}
 
+		#empresas .bloco{
+			margin: 30px;
+		}
+
+		#empresas .bloco p{
+			font-size: 13px;
+			line-height: 20px;
+			margin-top: 40px;
+		}
 	}
