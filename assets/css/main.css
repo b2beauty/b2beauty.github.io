@@ -2976,10 +2976,25 @@
 	line-height: 28px;
 }
 
+#empresas a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #555;
+	letter-spacing: 4px;
+	border: 2px solid #555;
+	padding: 3px 10px;
+	text-indent: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#empresas a:hover {
+	color: #b58b58;
+	border-color: #b58b58;
+}
 /* Investidores */
 	#investidores{
 		position: relative;
-		min-height: 1000px;
 	}
 
 	#investidores .row.images .image {
@@ -3451,7 +3466,7 @@
 			top: 50%;
 		}
 		#empresas .bloco{
-			margin: 70px;
+			margin: 30px 70px;
 		}
 		#empresas .bloco p{
 			margin-top: 20px;
@@ -3656,6 +3671,12 @@
 				background-size: contain;
 				opacity: 0.65;
 			}
+
+		#empresas .bloco p{
+			font-size: 13px;
+			line-height: 20px;
+			margin-top: 40px;
+		}
 	}
 
 	@media screen and (max-width: 480px), screen and (max-height: 600px) {
@@ -3671,14 +3692,7 @@
 		.dark .button.style2.down{
 			top: 10px;
 		}
-
 		#empresas .bloco{
 			margin: 30px;
-		}
-
-		#empresas .bloco p{
-			font-size: 13px;
-			line-height: 20px;
-			margin-top: 40px;
 		}
 	}
