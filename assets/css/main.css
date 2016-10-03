@@ -3701,6 +3701,10 @@
 			height: 1650px;
 		}
 
+		.main.style2 .content p{
+			font-size: 15px;
+		}
+
 		#investidores{
 			padding-top: 80px;
 		}
