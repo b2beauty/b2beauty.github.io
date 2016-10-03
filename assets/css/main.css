@@ -2967,12 +2967,12 @@
 
 #empresas .bloco{
 	text-align: center;
-	margin: 15% 18%;
+	margin: 25% 18%;
 }
 
 #empresas .bloco p{
 	margin-top: 70px;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 28px;
 }
 
@@ -3695,7 +3695,7 @@
 		}
 	}
 
-	@media screen and (max-width: 480px), screen and (max-height: 600px) {
+	@media screen and (max-width: 480px) {
 
 		#empresas{
 			height: 950px;
@@ -3722,5 +3722,35 @@
 		}
 		#empresas .bloco{
 			margin: 30px;
+		}
+	}
+
+	@media screen and (max-height: 800px) {
+
+		#empresas .bloco{
+			margin: 18% 18%;
+		}
+	}
+
+	@media screen and (max-height: 715px) {
+
+		#empresas .bloco{
+			margin: 14% 18%;
+		}
+
+		#empresas .bloco p{
+			margin-top: 50px;
+			font-size: 16px;
+			line-height: 28px;
+		}
+
+		#empresas .bloco img{
+			width: 220px;
+		}
+	}
+
+	@media screen and (max-height: 600px) {
+		#empresas .bloco{
+			margin: 9% 18%;
 		}
 	}
