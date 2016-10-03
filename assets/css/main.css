@@ -3418,6 +3418,7 @@
 
 			.main.style2.right .content {
 				left: 50%;
+				margin-bottom: 50px;
 			}
 
 			.main.style2.inactive.left .content {
