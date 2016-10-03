@@ -3492,6 +3492,10 @@
 			text-align: center;
 		}
 
+		#sobre .fdbtn{
+			display: none;
+		}
+
 		#nav {
 			color: #2F2F2F;
 			top: auto;
